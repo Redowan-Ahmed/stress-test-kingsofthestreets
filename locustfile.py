@@ -9,7 +9,7 @@ class LandingPageLoad(HttpUser):
         self.client.get("/upcoming-event")
         self.client.get("/login")
         self.client.get("/fight-application")
-	self.client.get("/event")
+        self.client.get("/event")
 
     @task
     def shop(self):
